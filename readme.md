@@ -8,18 +8,18 @@ Implemented all the core and bonusfeatures accordfing to the given task.
 
 ## How to execute
 
-1. 
-    ```bash
-    ./gradlew bootRun
-    ```
+
+```bash
+./gradlew bootRun
+```
  # On startup, the application will:
   * Seed the database with the default base fee and weather fee rules.
   * Execute an initial fetch of the current weather data from the Estonian Environment Agency.
 
 ### Tests can be executed:
 ```bash
-    ./gradlew test
-  ```
+./gradlew test
+```
 
 ## API Documentation
 
