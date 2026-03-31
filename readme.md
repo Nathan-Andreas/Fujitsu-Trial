@@ -12,7 +12,7 @@ Implemented all the core and bonusfeatures accordfing to the given task.
 ```bash
 ./gradlew bootRun
 ```
-# On startup, the application will:
+## On startup, the application will:
 * Seed the database with the default base fee and weather fee rules.
 * Execute an initial fetch of the current weather data from the Estonian Environment Agency.
 
