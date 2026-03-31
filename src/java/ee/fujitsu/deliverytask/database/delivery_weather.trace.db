@@ -1,6 +1,0 @@
-2026-03-31 09:57:11.144300+03:00 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "WEATHER_OBSERVATION" not found (this database is empty); SQL statement:
-select wo1_0.id,wo1_0.air_temperature,wo1_0.phenomenon,wo1_0.station_name,wo1_0.timestamp,wo1_0.wind_speed,wo1_0.wmo_code from weather_observation wo1_0 where wo1_0.station_name=? order by wo1_0.timestamp desc fetch first ? rows only [42104-240]
-2026-03-31 09:57:28.873073+03:00 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "WEATHER_OBSERVATION" not found (this database is empty); SQL statement:
-select wo1_0.id,wo1_0.air_temperature,wo1_0.phenomenon,wo1_0.station_name,wo1_0.timestamp,wo1_0.wind_speed,wo1_0.wmo_code from weather_observation wo1_0 where wo1_0.station_name=? order by wo1_0.timestamp desc fetch first ? rows only [42104-240]
